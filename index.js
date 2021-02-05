@@ -88,6 +88,7 @@ const deleteUser = async (req, res, next) => {
   }
 };
 
+//these routes
 app.route("/api/users/")
   .get(getAllUsers)
   .post(createUser)
